@@ -12,6 +12,8 @@
     "tailwindcss": "^0.7.2"
   },
   "devDependencies": {
+    "@now/next": "^0.0.73",
+    "@now/static-build": "^0.4.11",
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.2.0",
@@ -23,6 +25,6 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 8000"
   }
 }

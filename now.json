@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "name": "react-30",
+  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
+}

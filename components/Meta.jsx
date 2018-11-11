@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import "../static/style.css";
 
 const Meta = () => (
   <Head>
