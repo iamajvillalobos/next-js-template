@@ -4,9 +4,12 @@
   "author": "AJ Villalobos",
   "license": "MIT",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "autoprefixer": "^9.3.1",
     "next": "^7.0.2",
     "react": "^16.6.1",
-    "react-dom": "^16.6.1"
+    "react-dom": "^16.6.1",
+    "tailwindcss": "^0.7.2"
   },
   "devDependencies": {
     "eslint": "^5.9.0",
