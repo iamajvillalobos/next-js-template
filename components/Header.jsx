@@ -1,12 +1,13 @@
 import React from "react";
 
 const Header = () => (
-  <nav className="navbar" role="navigation" aria-label="main navigation">
-    <div className="navbar-brand">
-      <a className="navbar-item" href="/">
-        React in 30
-      </a>
-    </div>
+  <nav className="flex items-center justify-between bg-blue p-6">
+    <a
+      href="/"
+      className="text-xl font-medium tracking-wide no-underline text-white"
+    >
+      React30
+    </a>
   </nav>
 );
 
